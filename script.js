@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
             resultadoDiv.textContent = "Está quase na hora de ao mossar.";
             imagensDiv.innerHTML = "<img src='img/FqSpqB3WwAAbCnv.jpg' alt='Quase almoço'>";
         } else if (hora >= "13:00") {
-            resultadoDiv.textContent = "Já passou da hora de ao mossar.";
+            resultadoDiv.textContent = "Já passou da hora de ao mossar. Volte no horario.";
             imagensDiv.innerHTML = "<img src='img/passou.png' alt='Passou da hora'>";
         } else {
-            resultadoDiv.textContent = "Ainda não é hora de ao mossar.";
+            resultadoDiv.textContent = "Ainda não é hora de ao mossar. sua hora vai chegar";
             imagensDiv.innerHTML = "<img src='img/nao pode.png' alt='Ainda não almoço'>";
         }
     });
